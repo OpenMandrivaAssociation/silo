@@ -13,7 +13,6 @@ Group:		System/Kernel and hardware
 Url:		http://sparc-boot.org/
 Source0:	http://www.sparc-boot.org/pub/%{name}/%{name}-%{version}.tar.bz2
 Patch0:		silo-1.2.4-ext3.patch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	e2fsprogs-devel elftoaout
 Provides:       bootloader
 
