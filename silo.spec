@@ -10,6 +10,7 @@ Release:	%{release}
 License:	GPL
 ExclusiveArch:	%{sunsparc}
 Group:		System/Kernel and hardware
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url:		http://sparc-boot.org/
 Source0:	http://www.sparc-boot.org/pub/%{name}/%{name}-%{version}.tar.bz2
 Patch0:		silo-1.2.4-ext3.patch
