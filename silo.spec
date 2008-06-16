@@ -1,6 +1,6 @@
 %define	name	silo
 %define	version	1.4.13
-%define	release	%mkrel 1
+%define	release	%mkrel 2
 
 Summary:	The SILO boot loader for SPARCs
 Summary(fr):	Chargeur de boot Linux pour SPARCs
