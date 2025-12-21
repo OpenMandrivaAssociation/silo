@@ -14,6 +14,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url:		https://sparc-boot.org/
 Source0:	http://www.sparc-boot.org/pub/%{name}/%{name}-%{version}.tar.bz2
 Patch0:		silo-1.2.4-ext3.patch
+BuildRequires:	make
 BuildRequires:	e2fsprogs-devel elftoaout
 Provides:       bootloader
 
